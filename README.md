@@ -22,4 +22,5 @@ note that we are mounting three volumes:
 
 this can also be replaced by an alias like this:
 ```bash 
-alias ansible-playbook='docker run --rm -it -v ~/.ssh/id_rsa:/root/.ssh/id_rsa -v ~/.ssh/id_rsa.pub:/root/.ssh/id_rsa.pub -v $(pwd):/ansible/playbooks ansible:b0'```
+alias ansible-playbook='docker run --rm -it -v ~/.ssh/id_rsa:/root/.ssh/id_rsa -v ~/.ssh/id_rsa.pub:/root/.ssh/id_rsa.pub -v $(pwd):/ansible/playbooks ansible:b0'
+```
